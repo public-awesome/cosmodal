@@ -1,16 +1,16 @@
 {
-  "name": "@noahsaso/cosmodal",
+  "name": "@stargazezone/cosmodal",
   "version": "0.5.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NoahSaso/cosmodal.git"
+    "url": "git+https://github.com/public-awesome/cosmodal.git"
   },
-  "author": "Noah Saso",
+  "author": "Public Awesome",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NoahSaso/cosmodal/issues"
+    "url": "https://github.com/public-awesome/cosmodal/issues"
   },
-  "homepage": "https://github.com/NoahSaso/cosmodal#readme",
+  "homepage": "https://github.com/public-awesome/cosmodal#readme",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "unpkg": "dist/index.js",
