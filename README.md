@@ -1,16 +1,12 @@
-# @noahsaso/cosmodal
+# @stargazezone/cosmodal
 
 A wallet connector with mobile WalletConnect support for the Cosmos ecosystem.
 
 ## Example
 
-The example is deployed on Vercel at https://noahsaso-cosmodal.vercel.app.
-
-It can also be run locally using these commands:
-
 ```sh
 # Clone the repo.
-git clone https://github.com/NoahSaso/cosmodal
+git clone https://github.com/public-awesome/cosmodal
 # Enter the example folder.
 cd cosmodal/example
 
