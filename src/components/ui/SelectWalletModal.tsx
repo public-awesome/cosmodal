@@ -56,8 +56,8 @@ const WalletRow = styled.div`
   padding: 1.25rem;
   display: flex;
   align-items: center;
-  background-color: rgb(229 231 235);
-  box-shadow: inset 0 0 0 1px rgb(156 163 175);
+  background: black;
+  border: 1px solid rgb(255 255 255 / 0.1);
 
   &:hover {
     cursor: pointer;
@@ -73,16 +73,17 @@ const WalletInfo = styled.div`
   display: flex;
   flex-direction: column;
   margin-left: 1.25rem;
+  color: white;
 `
 
 const WalletName = styled.div`
-  color: black;
-  font-size: 1.125rem;
-  font-weight: 600;
-  line-height: 1.75rem;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.25rem;
 `
 
 const WalletDescription = styled.div`
-  margin-top: 0.25rem;
-  color: rgb(75 85 99);
+  color: white;
+  margin-top: 0.125rem;
 `

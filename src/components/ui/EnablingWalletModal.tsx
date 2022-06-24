@@ -31,7 +31,7 @@ export const EnablingWalletModal: FunctionComponent<
       {...props}
     >
       {showHelp && (
-        <p className={classNames?.textContent}>
+        <p className={classNames?.textContent} style={{ color: "white" }}>
           If nothing shows up in your wallet,{" "}
           <button
             onClick={reset}

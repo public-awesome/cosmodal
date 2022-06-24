@@ -73,7 +73,7 @@ export const WalletConnectModal: FunctionComponent<WalletConnectModalProps> = ({
         <>
           <p
             className={classNames?.textContent}
-            style={{ marginBottom: "1rem" }}
+            style={{ marginBottom: "1rem", color: "white" }}
           >
             <a href={navigateToAppURL} style={{ textDecoration: "underline" }}>
               Open your mobile wallet
@@ -83,7 +83,10 @@ export const WalletConnectModal: FunctionComponent<WalletConnectModalProps> = ({
 
           <p
             className={classNames?.textContent}
-            style={{ marginBottom: showMobileHelp ? "1rem" : "1.5rem" }}
+            style={{
+              marginBottom: showMobileHelp ? "1rem" : "1.5rem",
+              color: "white",
+            }}
           >
             If you don&apos;t have Keplr Mobile installed,{" "}
             <a
@@ -99,7 +102,7 @@ export const WalletConnectModal: FunctionComponent<WalletConnectModalProps> = ({
           {showMobileHelp && (
             <p
               className={classNames?.textContent}
-              style={{ marginBottom: "1.5rem" }}
+              style={{ marginBottom: "1.5rem", color: "white" }}
             >
               If nothing shows up in your mobile wallet, or nothing happened
               once you accepted,{" "}
@@ -116,7 +119,7 @@ export const WalletConnectModal: FunctionComponent<WalletConnectModalProps> = ({
 
           <button
             onClick={() => setQrShowing((s) => !s)}
-            style={{ textAlign: "left" }}
+            style={{ textAlign: "left", color: "white" }}
           >
             <ModalSubheader
               className={classNames?.modalSubheader}

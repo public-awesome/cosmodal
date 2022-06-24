@@ -71,12 +71,12 @@ const ModalContent = styled.div<{ maxWidth: string }>`
   transform: translateX(-50%);
   padding: 1.25rem;
   border-radius: 1rem;
+  border: 1px solid rgb(255 255 255 / 0.1);
   display: flex;
   flex-direction: column;
-  background: white;
+  background: black;
   width: 100%;
   max-width: ${(props) => props.maxWidth};
-  outline: none;
   cursor: auto;
 
   @media (max-width: 768px) {
@@ -101,11 +101,12 @@ const ModalOverlay = styled.div`
 `
 
 const ModalHeader = styled.div`
-  color: rgb(31, 41, 55);
+  color: white;
   font-size: 1.25rem;
   font-weight: bold;
   line-height: 1.75rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
+  color: white;
 `
 
 export const ModalSubheader = styled.div`
@@ -120,4 +121,5 @@ const ModalCloseButton = styled.div`
   top: 1.25rem;
   right: 1.25rem;
   cursor: pointer;
+  color: white;
 `

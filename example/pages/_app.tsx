@@ -4,7 +4,7 @@ import {
   ChainInfoID,
   WalletManagerProvider,
   WalletType,
-} from "@noahsaso/cosmodal"
+} from "@josefleventon/cosmodal"
 import type { AppProps } from "next/app"
 import { FunctionComponent } from "react"
 import { GasPrice } from "@cosmjs/stargate"
@@ -22,12 +22,16 @@ const MyApp: FunctionComponent<AppProps> = ({ Component, pageProps }) => (
     enabledWalletTypes={[WalletType.Keplr, WalletType.WalletConnectKeplr]}
     renderLoader={() => <p>Loading...</p>}
     localStorageKey={LOCAL_STORAGE_KEY}
-    defaultChainId={ChainInfoID.Juno1}
+    defaultChainId={ChainInfoID.Stargaze1}
     getSigningCosmWasmClientOptions={(chainInfo) => ({
-      gasPrice: GasPrice.fromString("0.0025" + chainInfo.feeCurrencies[0].coinMinimalDenom),
+      gasPrice: GasPrice.fromString(
+        "0.0025" + chainInfo.feeCurrencies[0].coinMinimalDenom
+      ),
     })}
     getSigningStargateClientOptions={(chainInfo) => ({
-      gasPrice: GasPrice.fromString("0.0025" + chainInfo.feeCurrencies[0].coinMinimalDenom),
+      gasPrice: GasPrice.fromString(
+        "0.0025" + chainInfo.feeCurrencies[0].coinMinimalDenom
+      ),
     })}
   >
     <Component {...pageProps} />

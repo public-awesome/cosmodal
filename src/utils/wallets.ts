@@ -9,7 +9,7 @@ export const KeplrWallet: Wallet = {
   type: WalletType.Keplr,
   name: "Keplr Wallet",
   description: "Keplr Chrome Extension",
-  imageUrl: "/keplr-wallet-extension.png",
+  imageUrl: "https://i.ibb.co/Km5CrVs/keplr-logo.png",
   getClient: getKeplrFromWindow,
   getOfflineSignerFunction: (client) =>
     // This function expects to be bound to the `client` instance.
@@ -20,7 +20,7 @@ export const WalletConnectKeplrWallet: Wallet = {
   type: WalletType.WalletConnectKeplr,
   name: "WalletConnect",
   description: "Keplr Mobile",
-  imageUrl: "/walletconnect-keplr.png",
+  imageUrl: "https://i.ibb.co/JCMSxv8/walletconnect-logo.png",
   getClient: async (chainInfo, walletConnect) => {
     if (walletConnect?.connected) {
       return new KeplrWalletConnectV1(walletConnect, [chainInfo])
