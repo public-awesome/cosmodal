@@ -21,9 +21,9 @@ yarn && yarn dev
 1. Install the Cosmodal package in your React project
 
 ```sh
-npm install --save @noahsaso/cosmodal
+npm install --save @stargazezone/cosmodal
 # OR
-yarn add @noahsaso/cosmodal
+yarn add @stargazezone/cosmodal
 ```
 
 2. Import `WalletManagerProvider` and wrap it around your whole app. Only include it once as an ancestor of all components that need to access the wallet. Likely you'll want this in your root App component. Check out the example code to see how to define wallets.
