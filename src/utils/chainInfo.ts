@@ -34,7 +34,7 @@ export enum ChainInfoID {
   Comdex1 = "comdex-1",
   CheqdMainnet1 = "cheqd-mainnet-1",
   Stargaze1 = "stargaze-1",
-  StargazeTestnet = "double-double-1", // Stargaze testnet (current double-double-1, update this when changed)
+  Elgafar1 = "elgafar-1", // Stargaze testnet (current elgafar-1, update this when changed)
   Chihuahua1 = "chihuahua-1",
   LumNetwork1 = "lum-network-1",
   Vidulum1 = "vidulum-1",
@@ -747,9 +747,9 @@ export const ChainInfoList: ChainInfo[] = (
       features: ["stargate", "ibc-transfer", "no-legacy-stdTx"],
     },
     {
-      rpc: "https://rpc.double-double-1.stargaze-apis.com/",
-      rest: "https://rest.double-double-1.stargaze-apis.com/",
-      chainId: ChainInfoID.StargazeTestnet,
+      rpc: "https://rpc.elgafar-1.stargaze-apis.com/",
+      rest: "https://rest.elgafar-1.stargaze-apis.com/",
+      chainId: ChainInfoID.Elgafar1,
       chainName: "Stargaze Testnet",
       bip44: {
         coinType: 118,
