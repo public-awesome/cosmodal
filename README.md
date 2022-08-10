@@ -1,6 +1,6 @@
 # @stargazezone/cosmodal
 
-Superseded by [public-awesome/connect](https://github.com/public-awesome/connect) .
+Superseded by [public-awesome/connect](https://github.com/public-awesome/connect).
 
 A wallet connector with mobile WalletConnect support for the Cosmos ecosystem.
 
